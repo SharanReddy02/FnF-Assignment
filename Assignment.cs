@@ -17,7 +17,7 @@ namespace CSharpbasics
             //dynamicArray();
         }
         
-        //Dynamic creation program
+        //Dynamic array creation program
         static void dynamicArray()
         {
             Console.WriteLine("Enter the Size of the Array");

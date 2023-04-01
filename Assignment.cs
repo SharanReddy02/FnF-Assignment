@@ -16,6 +16,8 @@ namespace CSharpbasics
             DateValidation();
             //dynamicArray();
         }
+        
+        //Dynamic creation program
         static void dynamicArray()
         {
             Console.WriteLine("Enter the Size of the Array");
@@ -38,6 +40,8 @@ namespace CSharpbasics
                 Console.WriteLine(item);
             }
         }
+        
+        //Date validation program
 
         private static void DateValidation()
         {
@@ -55,7 +59,8 @@ namespace CSharpbasics
                 Console.WriteLine("false");
             }
         }
-
+        
+        //Calculator program
         private static void Calc()
         {
             Console.WriteLine("Enter 2 numbers:");
@@ -90,7 +95,8 @@ namespace CSharpbasics
                 s = Console.ReadLine();
             }
         }
-
+        
+        //Program to check Odd/Even
         private static void OddEven()
         {
             int[] arr = { 3, 6, 8, 1, 20 };
